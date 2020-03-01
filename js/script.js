@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     /* запросы на сервер */
     const getHerePat = handler => {
-        fetch('/presentList.json')
+        fetch('https://github.com/killStrikeFF/vista-project/db/presentList.json')
             .then(response => response.json())
             .then(handler);
     };
