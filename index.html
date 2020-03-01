@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Виста</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+    <!-- contaiber info pacient -->
+    <div class="container-info">
+        <div class="container-info-head">
+            <p>Информация о пациенте</p>
+        </div>
+        <div class="container-info-pat">
+            <label>ФИО <input class="fioPat" type="text" value=""></label>
+            <label>Возраст <input class="oldPat" type="text" value=""></label>
+            <label>Диагноз <input class="diagPat" type="text" value=""></label>
+        </div>
+    </div>
+
+    <!-- container between main blocks -->
+    <div class="container-clear">
+        <p>.</p>
+    </div>
+
+    <!-- container all pacients -->
+    <div class="container-pat">
+        <div class="container-pat-nav">
+            <button type="button" class="btn-pat-here">Присутствуют (<p class="btn-pat-here-col"></p>)</button>
+            <button type="button" class="btn-pat-quit">Выбывшие (<p class="btn-pat-quit-col"></p>)</button>
+        </div>
+
+        <!-- table pacient which here -->
+        <div class="table-here">
+            <div class="table-here-head">
+                <p class="table-here-head-th">№ ИБ</p>
+                <p class="table-here-head-th">ФИО</p>
+                <p class="table-here-head-th">Палата</p>
+            </div>
+        </div>
+
+        <!-- table pacients which quit -->
+        <div class="table-quit">
+            <div class="table-quit-head">
+                <p class="table-quit-head-th">№ ИБ</p>
+                <p class="table-quit-head-th">ФИО</p>
+                <p class="table-quit-head-th">Палата</p>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="/js/script.js"></script>
+    
+</body>
+</html>
